@@ -1,0 +1,26 @@
+{
+    "ENDPOINT": "https://covidtracking.com/api/states",
+    "DATA_REFRESH_DELAY": 10000,
+    "OBSERVERS": [{
+            "value": "States",
+            "field": "state",
+            "isValue": false
+        },
+        {
+            "value": "Death Increase",
+            "field": "deathIncrease",
+            "isValue": true
+        },
+        {
+            "value": "Positive Increase",
+            "field": "positiveIncrease",
+            "isValue": true
+        },
+        {
+            "value": "Hospitalized Increase",
+            "field": "hospitalizedIncrease",
+            "isValue": true
+        }
+    ],
+    "ERROR_MESSAGE": "ERROR OCCURRED"
+}
